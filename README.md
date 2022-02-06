@@ -1,4 +1,4 @@
-# Leogotou-source
+# Leogotyou-source
 The source of the troll website leogotyou
 
 # How it works
