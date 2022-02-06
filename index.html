@@ -1,0 +1,104 @@
+<html><head><title>U FUCKED UP!</title>
+<link rel="icon" href="Leo.gif" type="image/icon type">
+
+
+
+<!-- <meta http-equiv="refresh" content="5"> -->
+<style>
+  body {
+  overflow: hidden; /* Hide scrollbars */
+}
+</style>
+
+
+</head><body style="background-color:black;"><audio autoplay="" loop="">
+<!-- <source src="https://static.wixstatic.com/mp3/af86aa_b14a675e99d64a32b0b40f24dc7d1638.mp3" type="audio/mpeg"> -->
+</audio>
+
+
+	<meta charset="UTF-8">
+	<title>Leo</title>
+  <link type="text/css" rel="stylesheet" href="style.css">
+
+
+  <center>
+  <div class="information">
+   <img src="Leo.gif" alt="this slowpoke moves" width="750"> 
+
+    
+  </div>
+  </center>
+  <center>
+  <canvas width="1600" height="550">
+    Your browser does not support HTML5 canvas
+  </canvas>
+  <div id="tracker"></div>
+
+  <script src="app.js"></script>
+
+</center>
+
+<style type="text/css">
+     * {
+   cursor: none;
+     }
+</style>
+
+<script>
+
+
+
+// Here are the initial values for our animation. 
+var x = 0, y = 0, w=150, h=275;  // Window position and size
+var dx = 10, dy = 10;              // Window velocity   
+var interval = 10;              // Milliseconds between updates
+
+// Create the window that we're going to move around.
+// The javascript: URL is simply a way to display a short document.
+// The final argument specifies the window size.
+
+
+var win = window.open('http://www.leoaqua.de/Pages/Leogotyou/Leo.html', "", 
+          "width=" + w + ",height=" + h ,);
+
+// Set the initial position of the window.
+win.moveTo(x,y);
+
+// Use setInterval() to call the bounce() method every interval 
+// milliseconds. Store the return value so that we can stop the
+// animation by passing it to clearInterval().
+var intervalID  = window.setInterval("bounce()", interval);
+
+// This function moves the window by (dx, dy) every interval ms.
+// It bounces whenever the window reaches the edge of the screen.
+function bounce() {
+    // If the user closed the window, stop the animation.
+    if (win.closed) {
+        clearInterval(intervalID);
+        return;
+    }
+
+    // Bounce if we have reached the right or left edge.
+    if ((x+dx > (screen.availWidth - w)) || (x+dx < 0)) dx = -dx;
+
+    // Bounce if we have reached the bottom or top edge.
+    if ((y+dy > (screen.availHeight - h)) || (y+dy < 0)) dy = -dy;
+
+    // Update the current position of the window.
+    x += dx;
+    y += dy;
+
+    // Finally, move the window to the new position.
+    win.moveTo(x,y);
+
+}
+</script>
+
+
+
+
+
+           
+         
+    
+  </body></html>
