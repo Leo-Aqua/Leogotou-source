@@ -10,5 +10,5 @@ All windows refresh themselves to duplicate the popup.
 
 all of the windows have a css part wich make the cursor invisible.
 
-# DEMO
+# Web location
 http://leoaqua.de/Pages/Leogotyou
