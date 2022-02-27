@@ -13,6 +13,6 @@ all of the windows have a css part wich make the cursor invisible.
 # Web location
 [leoaqua.de/Pages/Leogotyou](http://leoaqua.de/Pages/Leogotyou)
 
-# Original Web Location(no longer available)
+# Original Web Location(not working)
 
 [Leogotyou.w3spaces.com](http://Leogotyou.w3spaces.com)
