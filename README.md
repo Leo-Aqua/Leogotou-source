@@ -11,8 +11,8 @@ All windows refresh themselves to duplicate the popups.
 all of the windows have a css part wich make the cursor invisible.
 
 # Web location
-http://leoaqua.de/Pages/Leogotyou
+[leoaqua.de/Pages/Leogotyou](http://leoaqua.de/Pages/Leogotyou)
 
 # Original Web Location(no longer available)
 
-[Leogotyou.w3spaces.com](Leogotyou.w3spaces.com)
+[Leogotyou.w3spaces.com](http://Leogotyou.w3spaces.com)
