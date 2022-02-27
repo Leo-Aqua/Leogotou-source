@@ -6,7 +6,7 @@ It opens a popup that fies across the screen (http://www.java2s.com/Code/JavaScr
 
 This popup opens a other child popup with th same code.
 
-All windows refresh themselves to duplicate the popup.
+All windows refresh themselves to duplicate the popups.
 
 all of the windows have a css part wich make the cursor invisible.
 
